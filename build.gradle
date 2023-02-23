@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.luhuiguo:aspose-pdf:23.1'
+    implementation 'com.luhuiguo:aspose-words:23.1'
+
+}
+
+test {
+    useJUnitPlatform()
+}
